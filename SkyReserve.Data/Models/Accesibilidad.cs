@@ -13,6 +13,7 @@ namespace SkyReserve.Data.Models
         [Key] 
         public int AccesibilidadId { get; set; }
 
+        [Required(ErrorMessage = "Favor ingrese una descripcion.")]
         public string? Descripcion { get; set; }
 
     }

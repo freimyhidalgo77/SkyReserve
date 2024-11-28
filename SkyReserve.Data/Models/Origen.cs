@@ -13,6 +13,7 @@ namespace SkyReserve.Data.Models
         [Key] 
         public int OrigenId { get; set; }
 
+        [Required(ErrorMessage = "Favor ingrese un origen.")]
         public string? origen { get; set; }
 
     }

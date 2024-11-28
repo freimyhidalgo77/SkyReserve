@@ -14,6 +14,7 @@ namespace SkyReserve.Data.Models
 
         public int DestinoId { get; set; }
 
+        [Required(ErrorMessage = "Favor seleccione un destino.")]
         public string? destino { get; set; }
 
 

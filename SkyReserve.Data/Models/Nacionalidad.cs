@@ -13,6 +13,7 @@ namespace SkyReserve.Data.Models
 
         public int NacionalidadId { get; set; }
 
+        [Required(ErrorMessage = "Favor de seleccionar un pais.")]
         public string? Pais { get; set; }
 
 

@@ -18,21 +18,12 @@ namespace SkyReserve.Data.Models
         public int ReservaId { get; set; }
         public Reserva? Reserva { get; set; }
 
+        [Required(ErrorMessage = "Favor elija una fila .")]
+        public string? Fila {  get; set; }
+        public string? Letra { get; set; }
+        public int Existencia { get; set; }
 
-        public string Fila
-
-        public string Letra
-
-        public string Existencia
-
-               public string Fila
-
-
-
-
-
-
-
+               
 
     }
 }
